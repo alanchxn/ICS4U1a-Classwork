@@ -1,0 +1,21 @@
+Sept 8
+https://docs.brew.sh
+un-install brew
+install brew
+     https://treehouse.github.io/installation-guides/mac/homebrew
+    https://docs.mopidy.com/en/latest/installation/osx/
+ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+  124  brew
+  125  ./uninstall --help
+  130  xcode-select --help
+  132  xcode-select -v
+  134  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  135  brew help
+  136  brew update
+
+zsh - my zsh
+ themes
+    -https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+git repo 
+    classwork
+    studynote
