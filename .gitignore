@@ -17,6 +17,7 @@ dist
 .hg
 .bzr
 .svn
+.DS_Store
 *.pyc
 *.pyo
 *.tmp*
