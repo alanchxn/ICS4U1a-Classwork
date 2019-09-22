@@ -1,0 +1,49 @@
+#commandline exercise
+  518  mkdir
+  519  mkdir bc
+  521  cd bc
+  523  touch chen.json
+  525  mv chen.json daniel.json
+  527  cp daniel.json alanchen.json
+  530  echo 1 > alanchen.json
+  532  echo 2 > daniel.json
+  534  cat alanchen.json daniel.json > chen.json
+  536  less chen.json
+  537  rm daniel.json
+
+
+
+  
+  540  cd ..
+  541  code commandline
+  542  cd ~
+  543  ls -al
+  544  ~
+  545  cd -
+  546  cd ..
+  547  cd -
+  548  tree
+  549  pwd
+  550  cd ../ICS4U1a-Classwork
+  551  pwd
+  552  cd ..
+  553  cd terminal-practice
+  554  cd ..
+  556  cd ..
+  557  pwd
+  559  pwd
+  560  cd -
+  561  cd *
+  562  pwd
+  564  cd terminal-practice
+  566  pwd
+  567  /Users/alanchen/ICS4U1a-Classwork/terminal-practice
+  568  pwd
+  569  cd ../..
+  570  pwd
+  571  cd -
+  572  cd ~
+  573  pwd
+  574  cd -
+  575  cd /Users/alanchen
+  576  pwd

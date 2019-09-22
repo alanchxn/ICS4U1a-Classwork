@@ -19,3 +19,91 @@ zsh - my zsh
 git repo 
     classwork
     studynote
+
+Sept 13
+dict study notes:
+
+    Step 1
+
+    init dict d more than once, it only contains value of last time 
+
+        alanchen@Alans-MacBook-Pro  /Users  python3
+        Python 3.7.4 (default, Jul  9 2019, 18:15:00)
+        [Clang 10.0.0 (clang-1000.11.45.5)] on darwin
+        Type "help", "copyright", "credits" or "license" for more information.
+        >>> d = {}
+        >>> type(d)
+        <class 'dict'>
+        >>> d = {"first_name": "John"}
+        >>> d
+        {'first_name': 'John'}
+        >>> d = {"last_name": "Smith"}
+        >>> d
+        {'last_name': 'Smith'}
+        >>> d = {"age": 19}
+        >>> d
+        {'age': 19}
+
+
+    Step 2
+
+    init, create, add, remove from dict
+
+        A: create empty dict "d"
+            >>> d = {}
+            >>> type(d)
+            <class 'dict'>
+
+        B: add key and value
+            >>> d ["first_name"] = "John"
+            'John'
+            >>> d ["last_name"] = "Smith"
+            >>> d
+            {'first_name': 'John', 'last_name': 'Smith'}
+            >>> d ["age"] = 45
+            >>> d
+            {'first_name': 'John', 'last_name': 'Smith', 'age': 45}
+
+            or 
+
+            >>> d = { "first_name": "Alan", "last_name": "Chen", "grade": 12}
+
+        C: remove key and value 
+            >>> d = { "first_name": "Alan", "last_name": "Chen", "age": 12}
+            >>> d.pop("age")
+            12
+            >>> d
+            {'first_name': 'Alan', 'last_name': 'Chen'}
+
+        D: modify value by Key
+
+            >>> d = { "first_name": "Alan", "last_name": "Chen", "grade": 12}
+            >>> d
+            >>> for key in d.keys() :
+            ...     if "name" in key : d[key] = None
+            ...
+            >>> d
+            {'first_name': None, 'last_name': None, 'grade': 12}
+
+    Step 3 :
+        execise: looping through dictionaries 
+
+                    >>> d = { "first_name": "Alan", "last_name": "Chen", "grade": 12}
+
+                    by keys 
+                        for key in d.keys()
+
+                    by values
+                        for val in d.values()
+
+                    by items
+                        for key, value in d.items()
+
+        execise: get-a-list-of-keys-with-a-certain-value
+
+                    >>> d = { "grade_six": 6, "grade_seven": 7, "grade_tweleve": 12}
+                    >>> highschool = []
+                    >>> for gradename, gradevalue in d.items():
+                            if gradevalue > 8:
+                                highschool.append(gradename) 
+
