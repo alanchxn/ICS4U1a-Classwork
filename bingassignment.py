@@ -80,8 +80,7 @@ def new_addition_student(first_name: str, last_name: str, classroom: str, assign
     #     for i in data:
     #         if i["last_name"] == "Chen":
     #             data.remove(i)
-                
-
+    
     #     # save to file
     #     with open('proj_data.json', 'w') as fp:
     #         json.dump(data, fp)
@@ -148,4 +147,4 @@ def new_addition_student(first_name: str, last_name: str, classroom: str, assign
         for c in sorted(sort_list, key=operator.itemgetter("mark"), reverse=True):
             final_list.append(c)    
         print ("\n\nthe order of the students marks from highest to lowest is " + str(final_list)) 
-        return sort_list  
+        return final_list  
